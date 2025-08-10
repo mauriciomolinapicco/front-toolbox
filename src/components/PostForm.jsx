@@ -69,6 +69,8 @@ const PostForm = ({ onAddPost, onUpdatePost, editingPost, onCancelEdit }) => {
                     > {editingPost ? 'Save changes' : 'Publish'} 
                 </button>
 
+
+
                 {editingPost && (
                 <button
                     type="button"
